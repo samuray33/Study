@@ -11,7 +11,7 @@ delete
 
 
 - чтение таблицы 
-
+SELECT * FROM person
 
 - изменеие таблицы 
 
