@@ -1,9 +1,9 @@
-Начал изучать sql 
+Начал изучать SQL (PostgreSql)
 
 - создание таблицы
 1) вариант (базовый с минимальным модофикатором)
 CREATE TABLE persons(
-	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	id SERIAL PRIMARY KEY,
   	name TEXT,
   	surname TEXT,
   	age INTEGER
@@ -11,7 +11,7 @@ CREATE TABLE persons(
 
 2) вариань (правильный с полным модификатором)
 CREATE TABLE persons(
-	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	id SERIAL PRIMARY KEY,
   	name TINYTEXT not NULL,
   	surname TINYTEXT not NULL,
   	age INTEGER DEFAULT 18
