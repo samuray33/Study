@@ -1,10 +1,15 @@
 Начал изучать sql 
 
 - создание таблицы
-
+CREATE TABLE persons(
+	  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  	name TEXT,
+  	surname TEXT,
+  	age INTEGER
+);
 
 - добавление данных в таблицу
-
+insert into persons (name, surname, age) VALUES ('Gabriel', 'Apalonov', 22)
 
 - чтение таблицы 
 SELECT * FROM person
