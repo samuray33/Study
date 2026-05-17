@@ -1,2 +1,7 @@
 Начал изучать sql 
 - 
+Crud
+Create 
+reade 
+update 
+delete
