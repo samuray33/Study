@@ -5,3 +5,16 @@ Create
 reade 
 update 
 delete
+
+
+- создание таблицы
+
+
+- чтение таблицы 
+
+
+- изменеие таблицы 
+
+
+- удаление таблицы
+DROP TABLE persons
