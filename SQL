@@ -1,11 +1,20 @@
 Начал изучать sql 
 
 - создание таблицы
+1) вариант (базовый с минимальным модофикатором)
 CREATE TABLE persons(
-	  id INTEGER PRIMARY KEY AUTOINCREMENT,
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
   	name TEXT,
   	surname TEXT,
   	age INTEGER
+);
+
+2) вариань (правильный с полным модификатором)
+CREATE TABLE persons(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+  	name TINYTEXT not NULL,
+  	surname TINYTEXT not NULL,
+  	age INTEGER DEFAULT 18
 );
 
 - добавление данных в таблицу
